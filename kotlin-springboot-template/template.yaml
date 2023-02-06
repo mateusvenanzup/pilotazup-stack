@@ -1,0 +1,25 @@
+name: kotlin-springboot-template
+description: Template para criação de microsserviços utilizando Kotlin e Springboot
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  - label: Group ID
+    type: text
+    name: group_id
+    default: br.com.zup.pilotazup
+  - label: Version
+    type: text
+    name: version
+    default: 0.0.1-SNAPSHOT
+  - label: Java Version
+    type: multiselect
+    name: any_list
+    items:
+      - "8"
+      - "11"
+      - "17"
+      - "19"
